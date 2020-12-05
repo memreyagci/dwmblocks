@@ -2,7 +2,7 @@
 static const Block blocks[] = {
 	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
 	{"Mem:", "free -h | awk '/^Mem/ { print $3\"/\"$2 }' | sed s/i//g",	30,		1},
-	{"", "newsboat-status",		1800,	            11},
+	{"", "newsboat-status",		0,  	            11},
 	{"", "internet",			5,		            4},
 	{"", "volume",				0,		            10},
 	{"", "brightness",			0,		            5},
